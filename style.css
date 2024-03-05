@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Areia movediça :wght@300..700&display=swap') 
+
+.body {
+    font-size: 100%;
+   background-color: azure;
+  
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 250px;
+}
+
+.cabecalho-menu-item {
+    font-family:"Sarala", sans-serif; 
+    color:brown;
+    font-weight: 200;
+    font-size: 25px;
+}
+
+.conteudo {
+    margin-bottom:48px;
+    border-top: 0.4px solid #964b00 ;
+}
+
+.conteudo-principal {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:brown;
+
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap:32px;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color:brown;
+}
+
+.botaoinstagram {
+    background-color:antiquewhite ;
+    width: 180px;
+    height: 60px;
+    border:none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family:"Sarala", sans-serif; 
+    color:brown;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.conteudo-secundario-titulo {
+    border: top 0.4px solid brown;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    font-family:"Sarala", sans-serif; 
+    color:brown;
+    font-weight: 3000;
+    font-size: 35px;
+    
+
+}
+
+.conteudo-secundario-paragrafo {
+    text-align: center;
+    margin-bottom:30px ;
+    font-family:"Sarala", sans-serif; 
+    color:brown;
+    font-weight: 500;
+    font-size: 15px;
+    
+}
+
+.cardapio {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:brown;
+    padding: 110px;
+    border-color: #964b00;
+    text-align: center;
+}
+
+.cardapio-titulo {
+    display: flex;
+    font-weight: 50;
+    font-size: 25px;
+    margin-top: 50px;
+    margin-inline: 20px;
+    color:#964b00;
+    padding: 50px;
+    text-align: center;
+    
+   
+}
+
+.equipe-titulo {
+    
+    font-weight: 50;
+    font-size: 25px;
+    color:#964b00;
+    margin-top: 20px;
+    padding: 50px;
+    text-align: center;
+   
+}
+
+.imagens-equipe {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    color:brown;
+    text-align: center;
+    padding: 50px;
+    border-color: #964b00;
+    
+   
+
+}
+
+
+.terceiroconteudo-título {
+    margin-top: 15px;
+    color:brown; 
+    
+}
+
+.nossalocalizacao-titulo {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color:brown;
+    margin-top: 50px;
+    font-weight: 50;
+    font-size: 25px;
+    
+}
+
+.nossalocalizacao {
+    font-family:"Sarala", sans-serif; 
+    color:brown;
+    font-weight: 200;
+    font-size: 15px;
+    margin-top: 20px;
+    
+}
+
+.texto-localizacao {
+    padding: 20px;
+}
+
+#terceiroconteudo-título {
+    font-family: sans-serif;
+    margin-left: 7%;
+    text-align: center;
+}
+
+input, select, button{
+    border-radius: 5px;
+}
+
+.campo {
+    margin-top: 50px;
+    margin-bottom: 1em;
+    
+    
+}
+
+.campo label {
+    margin-top: 0.2em;
+    
+}
+
+fieldset.grupo .campo {
+    float:letf;
+    margin-right: 2em;
+   
+}
+
+
+.rodape {
+    padding: 32px;
+    border-top: 0.4px solid #964b00 ;
+    margin-top: 40px;
+
+}
+
+.rodape-imagem {
+    margin-top: 100px;
+   height:100px;
+   display: block;
+   margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    color: brown;
+    font-size: 13px;
+    margin-top: 15px;
+}
